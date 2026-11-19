@@ -1,0 +1,31 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Virtual machines and install media (never commit)
+*.iso
+*.qcow2
+*.vmdk
+*.vdi
+*.vhdx
+*.utm/
+*.vmwarevm/
+
+# Secrets and local credentials
+.env
+*.pem
+*.key
+passwords.txt
+credentials*
+
+# Temporary / scratch
+tmp/
+temp/
+*.log
